@@ -1,0 +1,22 @@
+name: cell-segmentation
+channels:
+ - pytorch
+ - nvidia
+dependencies:
+ - pip
+ - python
+ - pytorch
+ - torchvision
+ - torchaudio
+ - pytorch-cuda
+ - pip:
+     - -i https://pypi.tuna.tsinghua.edu.cn/simple
+     - black
+     - pandas
+     - seaborn
+     - ipython
+     - cellpose 
+     - pingouin
+     - matplotlib
+     - jupyterlab
+     - ipywidgets
